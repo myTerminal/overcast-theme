@@ -5,7 +5,7 @@
 ;; Author: Mohammed Ismail Ansari <team.terminal@gmail.com>
 ;; Keywords: theme
 ;; Maintainer: Mohammed Ismail Ansari <team.terminal@gmail.com>
-;; Created: 2017/06/24
+;; Created: 2018/02/15
 ;; Package-Requires: ((emacs "24"))
 ;; Description: A dark but vibrant color theme for Emacs
 ;; URL: http://ismail.teamfluxion.com
