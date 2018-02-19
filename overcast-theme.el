@@ -105,7 +105,7 @@
    `(highlight ((,class (:foreground ,fg3 :background ,bg3))))
    `(hl-line ((,class (:background  ,bg2))))
    `(fringe ((,class (:background ,bg2 :foreground ,fg4))))
-   `(cursor ((,class (:background ,bg3))))
+   `(cursor ((,class (:background ,color-cursor))))
    `(show-paren-match-face ((,class (:background ,color-warning))))
    `(isearch ((,class (:bold t :foreground ,color-warning :background ,bg3))))
 
