@@ -236,9 +236,6 @@
    `(magit-hash ((,class (:foreground ,fg2))))
    `(magit-diff-file-header ((,class (:foreground ,fg2 :background ,bg3))))
 
-   ;; Lazy highlight
-   `(lazy-highlight ((,class (:foreground ,fg2 :background ,bg3))))
-
    ;; Term
    `(term ((,class (:foreground ,color-primary :background ,bgcolor-primary))))
    `(term-color-black ((,class (:foreground ,bg3 :background ,bg3))))
