@@ -80,8 +80,11 @@
       (color-str     "#ffbc79")
       (color-type    "#e4a6ff")
       (color-var     "#00eaea")
-      (color-warning "#ff0000")
-      (color-warning2 "#ff8000"))
+
+      (color-success "green")
+      (color-info "yellow")
+      (color-warning "#ff8000")
+      (color-error "#ff0000"))
   (custom-theme-set-faces
    'overcast
 
@@ -264,7 +267,7 @@
    `(helm-ff-directory ((,class (:foreground ,color-func :background ,bgcolor-primary :weight bold))))
    `(helm-ff-file ((,class (:foreground ,color-primary :background ,bgcolor-primary :weight normal))))
    `(helm-ff-executable ((,class (:foreground ,color-var :background ,bgcolor-primary :weight normal))))
-   `(helm-ff-invalid-symlink ((,class (:foreground ,color-warning2 :background ,bgcolor-primary :weight bold))))
+   `(helm-ff-invalid-symlink ((,class (:foreground ,color-warning :background ,bgcolor-primary :weight bold))))
    `(helm-ff-symlink ((,class (:foreground ,color-keyword :background ,bgcolor-primary :weight bold))))
    `(helm-ff-prefix ((,class (:foreground ,bgcolor-primary :background ,color-keyword :weight normal))))
    `(helm-grep-cmd-line ((,class (:foreground ,color-primary :background ,bgcolor-primary))))
