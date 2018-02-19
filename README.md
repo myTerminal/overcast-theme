@@ -45,4 +45,4 @@ You might have to disable all themes that had been enabled earlier by
 
 ## Credits
 
-This theme has been created using [ThemeCreator](https://github.com/mswift42/themecreator).
+Inspired by a template from [ThemeCreator](https://github.com/mswift42/themecreator).
