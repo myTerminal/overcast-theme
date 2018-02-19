@@ -100,14 +100,20 @@
    `(font-lock-variable-name-face ((,class (:foreground ,color-var))))
    `(font-lock-warning-face ((,class (:foreground ,color-warning :background ,bg2))))
 
-   ;; Editing
+   ;; Misc
+   `(cursor ((,class (:background ,color-cursor))))
    `(region ((,class (:background ,color-primary :foreground ,bgcolor-primary))))
    `(highlight ((,class (:foreground ,fg3 :background ,bg3))))
    `(hl-line ((,class (:background  ,bg2))))
    `(fringe ((,class (:background ,bg2 :foreground ,fg4))))
-   `(cursor ((,class (:background ,color-cursor))))
+   `(vertical-border ((,class (:foreground ,fg3))))
    `(show-paren-match-face ((,class (:background ,color-warning))))
    `(isearch ((,class (:bold t :foreground ,color-warning :background ,bg3))))
+   `(minibuffer-prompt ((,class (:bold t :foreground ,color-keyword))))
+   `(default-italic ((,class (:italic t))))
+   `(link ((,class (:foreground ,color-const :underline t))))
+   `(warning ((,class (:foreground ,color-warning))))
+   `(trailing-whitespace ((,class :foreground nil :background ,color-warning)))
 
    ;; Modeline
    `(mode-line ((,class (:box (:line-width 1 :color nil) :bold t :foreground ,fg4 :background ,bg2))))
@@ -116,11 +122,9 @@
    `(mode-line-highlight ((,class (:foreground ,color-keyword :box nil :weight bold))))
    `(mode-line-emphasis ((,class (:foreground ,color-primary))))
 
-   ;; Misc
-   `(vertical-border ((,class (:foreground ,fg3))))
-   `(minibuffer-prompt ((,class (:bold t :foreground ,color-keyword))))
-   `(default-italic ((,class (:italic t))))
-   `(link ((,class (:foreground ,color-const :underline t))))
+   ;; Ido
+   `(ido-only-match ((,class (:foreground ,color-warning))))
+   `(ido-first-match ((,class (:foreground ,color-keyword :bold t))))
 
    ;; Org
    `(org-code ((,class (:foreground ,fg2))))
@@ -158,10 +162,6 @@
    `(font-latex-match-reference-color-keywords ((,class (:foreground ,color-const))))
    `(font-latex-match-variable-color-keywords ((,class (:foreground ,color-var))))
 
-   ;; Ido
-   `(ido-only-match ((,class (:foreground ,color-warning))))
-   `(ido-first-match ((,class (:foreground ,color-keyword :bold t))))
-
    ;; gnus
    `(gnus-header-content ((,class (:foreground ,color-keyword))))
    `(gnus-header-from ((,class (:foreground ,color-var))))
@@ -173,9 +173,6 @@
    `(mu4e-cited-1-face ((,class (:foreground ,fg2))))
    `(mu4e-cited-7-face ((,class (:foreground ,fg3))))
    `(mu4e-header-marks-face ((,class (:foreground ,color-type))))
-
-   ;; ffap
-   `(ffap ((,class (:foreground ,fg4))))
 
    ;; js2
    `(js2-private-function-call ((,class (:foreground ,color-const))))
@@ -194,9 +191,6 @@
    `(js3-jsdoc-tag-face ((,class (:foreground ,color-keyword))))
    `(js3-instance-member-face ((,class (:foreground ,color-const))))
 
-   ;; Warning
-   `(warning ((,class (:foreground ,color-warning))))
-
    ;; ac
    `(ac-completion-face ((,class (:underline t :foreground ,color-keyword))))
    `(info-quoted-name ((,class (:foreground ,color-builtin))))
@@ -211,9 +205,6 @@
 
    ;; Slime
    `(slime-repl-inputed-output-face ((,class (:foreground ,color-type))))
-
-   ;; Trailing whitespaces
-   `(trailing-whitespace ((,class :foreground nil :background ,color-warning)))
 
    ;; Rainbow delimiters
    `(rainbow-delimiters-depth-1-face ((,class :foreground ,color-primary)))
