@@ -10,7 +10,7 @@
 ;; Description: A dark but vibrant color theme for Emacs
 ;; URL: http://ismail.teamfluxion.com
 ;; Compatibility: Emacs24
-;; Created with ThemeCreator, https://github.com/mswift42/themecreator.
+;; Inpired by a template from https://github.com/mswift42/themecreator.
 
 ;; COPYRIGHT NOTICE
 ;;
