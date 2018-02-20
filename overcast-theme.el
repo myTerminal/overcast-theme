@@ -110,6 +110,7 @@
    `(hl-line ((,class (:background  ,bgcolor-level1))))
    `(fringe ((,class (:background ,bgcolor-level1 :foreground ,bgcolor-level3))))
    `(vertical-border ((,class (:foreground ,bgcolor-primary))))
+   `(linum ((,class (:foreground ,bgcolor-level3))))
    `(show-paren-match-face ((,class (:background ,bgcolor-level3))))
    `(isearch ((,class (:bold t :foreground ,bgcolor-primary :background ,color-warning))))
    `(minibuffer-prompt ((,class (:bold t :background ,bgcolor-level3 :foreground ,color-primary))))
@@ -157,6 +158,9 @@
    `(org-verbatim ((,class (:foreground ,color-level3))))
    `(org-document-info-keyword ((,class (:foreground ,color-func))))
    `(org-sexp-date ((,class (:foreground ,color-level3))))
+
+   ;; Anzu
+   `(anzu-mode-line ((,class (:foreground ,color-warning :bold t))))
 
    ;; LaTex
    `(font-latex-bold-face ((,class (:foreground ,color-type))))
