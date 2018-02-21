@@ -5,6 +5,8 @@
 
 A dark but vibrant color theme for Emacs
 
+![Screenshot](images/screenshot.png)
+
 ## Installation
 
 ### Manual
