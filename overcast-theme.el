@@ -242,14 +242,14 @@
 
    ;; Term
    `(term ((,class (:foreground ,color-primary :background ,bgcolor-primary))))
-   `(term-color-black ((,class (:foreground ,bgcolor-level2 :background ,bgcolor-level2))))
-   `(term-color-blue ((,class (:foreground ,color-func :background ,color-func))))
-   `(term-color-red ((,class (:foreground ,color-keyword :background ,bgcolor-level2))))
-   `(term-color-green ((,class (:foreground ,color-type :background ,bgcolor-level2))))
-   `(term-color-yellow ((,class (:foreground ,color-var :background ,color-var))))
-   `(term-color-magenta ((,class (:foreground ,color-builtin :background ,color-builtin))))
-   `(term-color-cyan ((,class (:foreground ,color-str :background ,color-str))))
-   `(term-color-white ((,class (:foreground ,color-level1 :background ,color-level1))))
+   `(term-color-black ((,class (:foreground ,color-black :background ,color-white))))
+   `(term-color-blue ((,class (:foreground ,color-blue :background ,color-white))))
+   `(term-color-red ((,class (:foreground ,color-red))))
+   `(term-color-green ((,class (:foreground ,color-green))))
+   `(term-color-yellow ((,class (:foreground ,color-yellow))))
+   `(term-color-magenta ((,class (:foreground ,color-magenta))))
+   `(term-color-cyan ((,class (:foreground ,color-cyan))))
+   `(term-color-white ((,class (:foreground ,color-white))))
 
    ;; Helm
    `(helm-header ((,class (:foreground ,color-level1 :background ,bgcolor-primary :underline nil :box nil))))
