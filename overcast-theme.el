@@ -174,22 +174,28 @@
    `(popup-scroll-bar-background-face ((,class :background ,bgcolor-level1)))
    `(popup-isearch-match ((,class :foreground ,color-warning :background ,color-white)))
 
-   ;; js2
-   `(js2-private-function-call ((,class (:foreground ,color-const))))
-   `(js2-jsdoc-html-tag-delimiter ((,class (:foreground ,color-str))))
-   `(js2-jsdoc-html-tag-name ((,class (:foreground ,color-var))))
-   `(js2-external-variable ((,class (:foreground ,color-type  ))))
-   `(js2-function-param ((,class (:foreground ,color-const))))
-   `(js2-jsdoc-value ((,class (:foreground ,color-str))))
-   `(js2-private-member ((,class (:foreground ,color-level2))))
+   ;; Company
+   `(company-echo-common ((,class (:foreground ,bgcolor-primary :background ,color-primary))))
+   `(company-preview ((,class (:background ,bgcolor-primary :foreground ,color-var))))
+   `(company-preview-common ((,class (:foreground ,bgcolor-level1 :foreground ,color-level2))))
+   `(company-preview-search ((,class (:foreground ,color-type :background ,bgcolor-primary))))
+   `(company-scrollbar-bg ((,class (:background ,bgcolor-level2))))
+   `(company-scrollbar-fg ((,class (:foreground ,color-keyword))))
+   `(company-tooltip ((,class (:foreground ,color-level1 :background ,bgcolor-primary :bold t))))
+   `(company-tooltop-annotation ((,class (:foreground ,color-const))))
+   `(company-tooltip-common ((,class ( :foreground ,color-level2))))
+   `(company-tooltip-common-selection ((,class (:foreground ,color-str))))
+   `(company-tooltip-mouse ((,class (:inherit highlight))))
+   `(company-tooltip-selection ((,class (:background ,bgcolor-level2 :foreground ,color-level2))))
+   `(company-template-field ((,class (:inherit region))))
 
-   ;; js3
-   `(js3-warning-face ((,class (:underline ,color-keyword))))
-   `(js3-error-face ((,class (:underline ,color-warning))))
-   `(js3-external-variable-face ((,class (:foreground ,color-var))))
-   `(js3-function-param-face ((,class (:foreground ,color-level1))))
-   `(js3-jsdoc-tag-face ((,class (:foreground ,color-keyword))))
-   `(js3-instance-member-face ((,class (:foreground ,color-const))))
+   ;; ace-jump
+   `(ace-jump-face-background ((,class :foreground ,bgcolor-level2 nil)))
+   `(ace-jump-face-foreground ((,class :foreground ,bgcolor-primary :background ,color-warning)))
+
+   ;; ace-window
+   `(aw-background-face ((,class :foreground ,bgcolor-level2)))
+   `(aw-leading-char-face ((,class :foreground ,color-warning :height 200 :weight bold)))
 
    ;; Undo tree
    `(undo-tree-visualizer-current-face ((,class :foreground ,color-warning)))
@@ -207,14 +213,6 @@
    `(rainbow-delimiters-depth-7-face ((,class :foreground ,color-red)))
    `(rainbow-delimiters-depth-8-face ((,class :foreground ,color-white)))
    `(rainbow-delimiters-unmatched-face ((,class :foreground ,color-warning)))
-
-   ;; ace-jump
-   `(ace-jump-face-background ((,class :foreground ,bgcolor-level2 nil)))
-   `(ace-jump-face-foreground ((,class :foreground ,bgcolor-primary :background ,color-warning)))
-
-   ;; ace-window
-   `(aw-background-face ((,class :foreground ,bgcolor-level2)))
-   `(aw-leading-char-face ((,class :foreground ,color-warning :height 200 :weight bold)))
 
    ;; Magit
    `(magit-item-highlight ((,class :background ,bgcolor-level2)))
@@ -262,21 +260,6 @@
    `(helm-source-go-package-godoc-description ((,class (:foreground ,color-str))))
    `(helm-bookmark-w3m ((,class (:foreground ,color-type))))
 
-   ;; Company
-   `(company-echo-common ((,class (:foreground ,bgcolor-primary :background ,color-primary))))
-   `(company-preview ((,class (:background ,bgcolor-primary :foreground ,color-var))))
-   `(company-preview-common ((,class (:foreground ,bgcolor-level1 :foreground ,color-level2))))
-   `(company-preview-search ((,class (:foreground ,color-type :background ,bgcolor-primary))))
-   `(company-scrollbar-bg ((,class (:background ,bgcolor-level2))))
-   `(company-scrollbar-fg ((,class (:foreground ,color-keyword))))
-   `(company-tooltip ((,class (:foreground ,color-level1 :background ,bgcolor-primary :bold t))))
-   `(company-tooltop-annotation ((,class (:foreground ,color-const))))
-   `(company-tooltip-common ((,class ( :foreground ,color-level2))))
-   `(company-tooltip-common-selection ((,class (:foreground ,color-str))))
-   `(company-tooltip-mouse ((,class (:inherit highlight))))
-   `(company-tooltip-selection ((,class (:background ,bgcolor-level2 :foreground ,color-level2))))
-   `(company-template-field ((,class (:inherit region))))
-
    ;; Web-mode
    `(web-mode-builtin-face ((,class (:inherit ,font-lock-builtin-face))))
    `(web-mode-comment-face ((,class (:inherit ,font-lock-comment-face))))
@@ -290,6 +273,23 @@
    `(web-mode-html-attr-value-face ((,class (:foreground ,color-keyword))))
    `(web-mode-warning-face ((,class (:inherit ,font-lock-warning-face))))
    `(web-mode-html-tag-face ((,class (:foreground ,color-builtin))))
+
+   ;; js2
+   `(js2-private-function-call ((,class (:foreground ,color-const))))
+   `(js2-jsdoc-html-tag-delimiter ((,class (:foreground ,color-str))))
+   `(js2-jsdoc-html-tag-name ((,class (:foreground ,color-var))))
+   `(js2-external-variable ((,class (:foreground ,color-type  ))))
+   `(js2-function-param ((,class (:foreground ,color-const))))
+   `(js2-jsdoc-value ((,class (:foreground ,color-str))))
+   `(js2-private-member ((,class (:foreground ,color-level2))))
+
+   ;; js3
+   `(js3-warning-face ((,class (:underline ,color-keyword))))
+   `(js3-error-face ((,class (:underline ,color-warning))))
+   `(js3-external-variable-face ((,class (:foreground ,color-var))))
+   `(js3-function-param-face ((,class (:foreground ,color-level1))))
+   `(js3-jsdoc-tag-face ((,class (:foreground ,color-keyword))))
+   `(js3-instance-member-face ((,class (:foreground ,color-const))))
 
    ;; jde
    `(jde-java-font-lock-package-face ((t (:foreground ,color-var))))
