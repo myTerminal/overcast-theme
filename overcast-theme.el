@@ -165,6 +165,15 @@
    ;; Anzu
    `(anzu-mode-line ((,class (:foreground ,color-warning :bold t))))
 
+   ;; autocomplete
+   `(ac-candidate-face ((,class :foreground ,color-level2 :background ,bgcolor-level2)))
+   `(ac-completion-face ((,class :foreground ,bgcolor-level3)))
+   `(ac-selection-face ((,class :foreground ,bgcolor-level2 :background ,color-level2)))
+   `(popup-tip-face ((,class :foreground ,color-black :background ,color-const)))
+   `(popup-scroll-bar-foreground-face ((,class :background ,bgcolor-level3)))
+   `(popup-scroll-bar-background-face ((,class :background ,bgcolor-level1)))
+   `(popup-isearch-match ((,class :foreground ,color-warning :background ,color-white)))
+
    ;; js2
    `(js2-private-function-call ((,class (:foreground ,color-const))))
    `(js2-jsdoc-html-tag-delimiter ((,class (:foreground ,color-str))))
@@ -182,12 +191,6 @@
    `(js3-jsdoc-tag-face ((,class (:foreground ,color-keyword))))
    `(js3-instance-member-face ((,class (:foreground ,color-const))))
 
-   ;; ac
-   `(ac-completion-face ((,class (:underline t :foreground ,color-keyword))))
-   `(info-quoted-name ((,class (:foreground ,color-builtin))))
-   `(info-string ((,class (:foreground ,color-str))))
-   `(icompletep-determined ((,class :foreground ,color-builtin)))
-
    ;; Undo tree
    `(undo-tree-visualizer-current-face ((,class :foreground ,color-warning)))
    `(undo-tree-visualizer-default-face ((,class :foreground ,color-comment)))
@@ -204,6 +207,14 @@
    `(rainbow-delimiters-depth-7-face ((,class :foreground ,color-red)))
    `(rainbow-delimiters-depth-8-face ((,class :foreground ,color-white)))
    `(rainbow-delimiters-unmatched-face ((,class :foreground ,color-warning)))
+
+   ;; ace-jump
+   `(ace-jump-face-background ((,class :foreground ,bgcolor-level2 nil)))
+   `(ace-jump-face-foreground ((,class :foreground ,bgcolor-primary :background ,color-warning)))
+
+   ;; ace-window
+   `(aw-background-face ((,class :foreground ,bgcolor-level2)))
+   `(aw-leading-char-face ((,class :foreground ,color-warning :height 200 :weight bold)))
 
    ;; Magit
    `(magit-item-highlight ((,class :background ,bgcolor-level2)))
