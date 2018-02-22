@@ -62,13 +62,16 @@
       (bgcolor-level3 "#3d5252")
 
       (color-black "black")
-      (color-blue "blue")
-      (color-red "red")
+      (color-white "white")
+      (color-violet "violet")
+      (color-purple "purple")
+      (color-blue "steel blue")
       (color-green "green")
       (color-yellow "yellow")
-      (color-magenta "magenta")
+      (color-orange "orange")
+      (color-red "red")
       (color-cyan "cyan")
-      (color-white "white")
+      (color-magenta "magenta")
 
       (color-cursor "white")
 
@@ -186,20 +189,20 @@
    `(icompletep-determined ((,class :foreground ,color-builtin)))
 
    ;; Undo tree
-   `(undo-tree-visualizer-current-face ((,class :foreground ,color-builtin)))
-   `(undo-tree-visualizer-default-face ((,class :foreground ,color-level1)))
+   `(undo-tree-visualizer-current-face ((,class :foreground ,color-warning)))
+   `(undo-tree-visualizer-default-face ((,class :foreground ,color-comment)))
    `(undo-tree-visualizer-unmodified-face ((,class :foreground ,color-var)))
    `(undo-tree-visualizer-register-face ((,class :foreground ,color-type)))
 
    ;; Rainbow delimiters
-   `(rainbow-delimiters-depth-1-face ((,class :foreground ,color-primary)))
-   `(rainbow-delimiters-depth-2-face ((,class :foreground ,color-type)))
-   `(rainbow-delimiters-depth-3-face ((,class :foreground ,color-var)))
-   `(rainbow-delimiters-depth-4-face ((,class :foreground ,color-const)))
-   `(rainbow-delimiters-depth-5-face ((,class :foreground ,color-keyword)))
-   `(rainbow-delimiters-depth-6-face ((,class :foreground ,color-primary)))
-   `(rainbow-delimiters-depth-7-face ((,class :foreground ,color-type)))
-   `(rainbow-delimiters-depth-8-face ((,class :foreground ,color-var)))
+   `(rainbow-delimiters-depth-1-face ((,class :foreground ,color-violet)))
+   `(rainbow-delimiters-depth-2-face ((,class :foreground ,color-purple)))
+   `(rainbow-delimiters-depth-3-face ((,class :foreground ,color-blue)))
+   `(rainbow-delimiters-depth-4-face ((,class :foreground ,color-green)))
+   `(rainbow-delimiters-depth-5-face ((,class :foreground ,color-yellow)))
+   `(rainbow-delimiters-depth-6-face ((,class :foreground ,color-orange)))
+   `(rainbow-delimiters-depth-7-face ((,class :foreground ,color-red)))
+   `(rainbow-delimiters-depth-8-face ((,class :foreground ,color-white)))
    `(rainbow-delimiters-unmatched-face ((,class :foreground ,color-warning)))
 
    ;; Magit
@@ -209,8 +212,8 @@
    `(magit-section-highlight      ((,class (:background ,bgcolor-level1))))
    `(magit-hunk-heading-highlight ((,class (:background ,bgcolor-level2))))
    `(magit-diff-context-highlight ((,class (:background ,bgcolor-level2 :foreground ,color-level2))))
-   `(magit-diffstat-added   ((,class (:foreground ,color-type))))
-   `(magit-diffstat-removed ((,class (:foreground ,color-var))))
+   `(magit-diffstat-added   ((,class (:foreground ,color-green))))
+   `(magit-diffstat-removed ((,class (:foreground ,color-red))))
    `(magit-process-ok ((,class (:foreground ,color-func :weight bold))))
    `(magit-process-ng ((,class (:foreground ,color-warning :weight bold))))
    `(magit-branch ((,class (:foreground ,color-const :weight bold))))
