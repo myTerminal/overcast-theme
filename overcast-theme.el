@@ -162,25 +162,6 @@
    ;; Anzu
    `(anzu-mode-line ((,class (:foreground ,color-warning :bold t))))
 
-   ;; LaTex
-   `(font-latex-bold-face ((,class (:foreground ,color-type))))
-   `(font-latex-italic-face ((,class (:foreground ,color-var :italic t))))
-   `(font-latex-string-face ((,class (:foreground ,color-str))))
-   `(font-latex-match-reference-color-keywords ((,class (:foreground ,color-const))))
-   `(font-latex-match-variable-color-keywords ((,class (:foreground ,color-var))))
-
-   ;; gnus
-   `(gnus-header-content ((,class (:foreground ,color-keyword))))
-   `(gnus-header-from ((,class (:foreground ,color-var))))
-   `(gnus-header-name ((,class (:foreground ,color-type))))
-   `(gnus-header-subject ((,class (:foreground ,color-func :bold t))))
-
-   ;; mu4e
-   `(mu4e-view-url-number-face ((,class (:foreground ,color-type))))
-   `(mu4e-cited-1-face ((,class (:foreground ,color-level1))))
-   `(mu4e-cited-7-face ((,class (:foreground ,color-level2))))
-   `(mu4e-header-marks-face ((,class (:foreground ,color-type))))
-
    ;; js2
    `(js2-private-function-call ((,class (:foreground ,color-const))))
    `(js2-jsdoc-html-tag-delimiter ((,class (:foreground ,color-str))))
@@ -210,9 +191,6 @@
    `(undo-tree-visualizer-unmodified-face ((,class :foreground ,color-var)))
    `(undo-tree-visualizer-register-face ((,class :foreground ,color-type)))
 
-   ;; Slime
-   `(slime-repl-inputed-output-face ((,class (:foreground ,color-type))))
-
    ;; Rainbow delimiters
    `(rainbow-delimiters-depth-1-face ((,class :foreground ,color-primary)))
    `(rainbow-delimiters-depth-2-face ((,class :foreground ,color-type)))
@@ -239,17 +217,6 @@
    `(magit-log-author ((,class (:foreground ,color-level2))))
    `(magit-hash ((,class (:foreground ,color-level1))))
    `(magit-diff-file-header ((,class (:foreground ,color-level1 :background ,bgcolor-level2))))
-
-   ;; Term
-   `(term ((,class (:foreground ,color-primary :background ,bgcolor-primary))))
-   `(term-color-black ((,class (:foreground ,color-black :background ,color-white))))
-   `(term-color-blue ((,class (:foreground ,color-blue :background ,color-white))))
-   `(term-color-red ((,class (:foreground ,color-red))))
-   `(term-color-green ((,class (:foreground ,color-green))))
-   `(term-color-yellow ((,class (:foreground ,color-yellow))))
-   `(term-color-magenta ((,class (:foreground ,color-magenta))))
-   `(term-color-cyan ((,class (:foreground ,color-cyan))))
-   `(term-color-white ((,class (:foreground ,color-white))))
 
    ;; Helm
    `(helm-header ((,class (:foreground ,color-level1 :background ,bgcolor-primary :underline nil :box nil))))
