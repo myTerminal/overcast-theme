@@ -272,7 +272,7 @@
    `(web-mode-html-attr-name-face ((,class (:foreground ,color-func))))
    `(web-mode-html-attr-value-face ((,class (:foreground ,color-keyword))))
    `(web-mode-warning-face ((,class (:inherit ,font-lock-warning-face))))
-   `(web-mode-html-tag-face ((,class (:foreground ,color-builtin))))
+   `(web-mode-html-tag-face ((,class (:foreground ,color-type))))
 
    ;; js2
    `(js2-private-function-call ((,class (:foreground ,color-const))))
