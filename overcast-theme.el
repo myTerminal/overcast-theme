@@ -7,7 +7,7 @@
 ;; Maintainer: Mohammed Ismail Ansari <team.terminal@gmail.com>
 ;; Created: 2018/02/15
 ;; Package-Requires: ((emacs "24"))
-;; Description: A dark but vibrant color theme for Emacs
+;; Description: A dark but vibrant color theme
 ;; URL: http://ismail.teamfluxion.com
 ;; Compatibility: Emacs24
 ;; Inpired by a template from https://github.com/mswift42/themecreator.
@@ -39,7 +39,7 @@
 
 ;;; Commentary:
 
-;;     A dark but vibrant color theme for Emacs.
+;;     A dark but vibrant color theme.
 ;;
 ;;  Overview of features:
 ;;
