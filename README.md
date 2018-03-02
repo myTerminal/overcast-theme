@@ -1,5 +1,7 @@
 # overcast-theme
 
+[![MELPA-Stable](http://stable.melpa.org/packages/overcast-theme-badge.svg)](http://stable.melpa.org/#/overcast-theme)
+[![MELPA](http://melpa.org/packages/overcast-theme-badge.svg)](http://melpa.org/#/overcast-theme)
 [![Marmalade](https://img.shields.io/badge/marmalade-available-8A2A8B.svg)](https://marmalade-repo.org/packages/overcast-theme)  
 [![License](https://img.shields.io/badge/LICENSE-GPL%20v3.0-blue.svg)](https://www.gnu.org/licenses/gpl.html)
 
@@ -21,9 +23,9 @@ Activate the package with:
 
     (require 'overcast-theme)
 
-### Marmalade
+### MELPA-Stable / MELPA / Marmalade
 
-If you have Marmalade added as a repository to your Emacs, you can just install *overcast-theme* with
+If you have MELPA-Stable, MELPA or Marmalade added as a repository to your Emacs, you can just install *overcast-theme* with
 
     M-x package-install overcast-theme RET
 
