@@ -115,7 +115,7 @@
    `(fringe ((,class (:background ,bgcolor-level1 :foreground ,bgcolor-level3))))
    `(vertical-border ((,class (:foreground ,bgcolor-primary))))
    `(linum ((,class (:foreground ,bgcolor-level3))))
-   `(show-paren-match-face ((,class (:background ,bgcolor-level2 :foreground ,color-white))))
+   `(show-paren-match-face ((,class (:background ,color-level3 :foreground ,color-white))))
    `(isearch ((,class (:bold t :foreground ,bgcolor-primary :background ,color-warning))))
    `(minibuffer-prompt ((,class (:bold t :background ,bgcolor-level3 :foreground ,color-primary))))
    `(default-italic ((,class (:italic t))))
