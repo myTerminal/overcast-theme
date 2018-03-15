@@ -299,7 +299,11 @@
    `(jde-java-font-lock-constant-face ((t (:foreground ,color-const))))
    `(jde-java-font-lock-modifier-face ((t (:foreground ,color-level1))))
    `(jde-jave-font-lock-protected-face ((t (:foreground ,color-keyword))))
-   `(jde-java-font-lock-number-face ((t (:foreground ,color-var))))))
+   `(jde-java-font-lock-number-face ((t (:foreground ,color-var))))
+
+   ;; telephone-line
+   `(telephone-line-accent-active ((t (:foreground ,bgcolor-primary :background ,color-level3))))
+   `(telephone-line-accent-inactive ((t (:foreground ,color-primary :background ,bgcolor-level2))))))
 
 ;;;###autoload
 (when (and (boundp 'custom-theme-load-path)
