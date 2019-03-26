@@ -3,7 +3,7 @@
 ;; This file is not part of Emacs
 
 ;; Author: Mohammed Ismail Ansari <team.terminal@gmail.com>
-;; Version: 1.2
+;; Version: 1.3
 ;; Keywords: theme
 ;; Maintainer: Mohammed Ismail Ansari <team.terminal@gmail.com>
 ;; Created: 2018/02/15
@@ -114,6 +114,8 @@
    `(hl-line ((,class (:background  ,bgcolor-level1))))
    `(fringe ((,class (:background ,bgcolor-level1 :foreground ,bgcolor-level3))))
    `(vertical-border ((,class (:foreground ,bgcolor-primary))))
+   `(line-number ((,class (:background ,bgcolor-primary :foreground ,bgcolor-level3 :height 0.8))))
+   `(line-number-current-line ((,class (:background ,bgcolor-level1 :foreground ,color-level3 :height 0.8))))
    `(linum ((,class (:foreground ,bgcolor-level3))))
    `(show-paren-match-face ((,class (:background ,color-level3 :foreground ,color-white))))
    `(isearch ((,class (:bold t :foreground ,bgcolor-primary :background ,color-warning))))
