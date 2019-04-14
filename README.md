@@ -5,7 +5,7 @@
 [![Marmalade](https://img.shields.io/badge/marmalade-available-8A2A8B.svg)](https://marmalade-repo.org/packages/overcast-theme)  
 [![License](https://img.shields.io/badge/LICENSE-GPL%20v3.0-blue.svg)](https://www.gnu.org/licenses/gpl.html)
 
-A dark but vibrant color theme for Emacs where almost everything except the code and the mode-line is muted so that the focus is entirely on buffer text. The mode-line for active window is highlighted to make it more noticeable while moving back and forth between windows.
+A dark but vibrant color theme for Emacs where almost everything except the code and the mode-line is muted so that the focus is entirely on buffer text. The mode-line for the active window is highlighted to make it more noticeable while moving back and forth between windows.
 
 ![Screenshot](images/screenshot.png)
 
