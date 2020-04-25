@@ -11,7 +11,7 @@
 ;; Description: A dark but vibrant color theme
 ;; URL: http://ismail.teamfluxion.com
 ;; Compatibility: Emacs24
-;; Inpired by a template from https://github.com/mswift42/themecreator.
+;; Inspired by a template from https://github.com/mswift42/themecreator.
 
 ;; COPYRIGHT NOTICE
 ;;
@@ -101,7 +101,7 @@
    `(font-lock-constant-face ((,class (:foreground ,color-const))))
    `(font-lock-doc-face ((,class (:foreground ,color-comment))))
    `(font-lock-function-name-face ((,class (:foreground ,color-func ))))
-   `(font-lock-keyword-face ((,class (:bold ,class :foreground ,color-keyword))))
+   `(font-lock-keyword-face ((,class (:bold t :foreground ,color-keyword))))
    `(font-lock-string-face ((,class (:foreground ,color-str))))
    `(font-lock-type-face ((,class (:foreground ,color-type ))))
    `(font-lock-variable-name-face ((,class (:foreground ,color-var))))
