@@ -3,7 +3,8 @@
 [![MELPA-Stable](http://stable.melpa.org/packages/overcast-theme-badge.svg)](http://stable.melpa.org/#/overcast-theme)
 [![MELPA](http://melpa.org/packages/overcast-theme-badge.svg)](http://melpa.org/#/overcast-theme)
 [![Marmalade](https://img.shields.io/badge/marmalade-available-8A2A8B.svg)](https://marmalade-repo.org/packages/overcast-theme)  
-[![License](https://img.shields.io/badge/LICENSE-GPL%20v3.0-blue.svg)](https://www.gnu.org/licenses/gpl.html)
+[![License](https://img.shields.io/badge/LICENSE-GPL%20v3.0-blue.svg)](https://www.gnu.org/licenses/gpl.html)  
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Y8Y5E5GL7)
 
 A dark but vibrant color theme for Emacs where almost everything except the code and the mode-line is muted so that the focus is entirely on buffer text. The mode-line for the active window is highlighted to make it more noticeable while moving back and forth between windows.
 
